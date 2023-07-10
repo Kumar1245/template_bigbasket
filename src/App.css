@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+.images{
+  height: 90vh;
+  width: 100vw;
+  background-image: url("https://cdn.pixabay.com/photo/2015/01/07/15/51/woman-591576_1280.jpg");
+  background-size: 100% 100%;
+  /* background-attachment: fixed; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+  margin-top: 4px;
+  justify-items: center;
+  border: 2px solid blue;
+  margin-top: 4px; 
+  height: 30px;
+  width: 100px;
+border-radius: 8px;
+  color: rgb(251, 255, 196);
+  background-color: rgb(0, 238, 255);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ProImage{
+  height: 80vh;
+  width: 100vw;
+  background-image: url("https://img.freepik.com/premium-photo/atomic-3d-illustration_303714-924.jpg?w=740");
+  background-size: cover;
+  
 }
